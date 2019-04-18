@@ -2,7 +2,7 @@
 pip install pyharbor
 
 # Usage
-from harborclient import harborclient
+from pyharborclient.harborclient import HarborClient
 
 
 host = "xx"  
