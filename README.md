@@ -1,4 +1,5 @@
 # Installation
+###latest version 1.2.5
 pip install pyharbor
 
 # Usage
