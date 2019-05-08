@@ -16,8 +16,8 @@ class HarborClient(object):
 
         self.session_id = self.login()
 
-    def __del__(self):
-        self.logout()
+    # def __del__(self):
+    #     self.logout()
 
     def login(self):
         login_data = requests.post('%s://%s/login' %
